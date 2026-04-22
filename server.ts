@@ -19,7 +19,7 @@ const app = new Elysia()
                 prompt +
                 "\n```\n\n" +
                 "Answer with generated code only. DO NOT ADD ANY EXTRA TEXT DESCRIPTION OR COMMENTS BESIDES THE CODE. Your answer contains code only ! " +
-                "Only include images if you are specifically asked for it. If asked to use images you can use https://source.unsplash.com/random/ as the image source. You can use one keyword to get a specific image by providing it like this https://source.unsplash.com/random/?keyword. " +
+                "Only include images if you are specifically asked for it. If asked to use images you can use https://picsum.photos/<W>/<H> as the image source (no API key, no auth). You can use one keyword to get a specific image by providing it like this https://source.unsplash.com/random/?keyword. " +
                 "When using images make sure that they are not stretched by using object-cover or bg-cover on the image. " +
                 "Write the full code for the new HTML and CSS for the web app. which uses tailwind classes if needed. you can use the svg icon code of heroicons directly if needed." +
                 "The code that you write will be written directly into an HTML DOM Make sure that all html elements are closed properly and that your full code in enclosed with ```html blocks." +
